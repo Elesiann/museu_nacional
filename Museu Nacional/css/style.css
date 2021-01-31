@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f0e9e8 url(/img/fundo.png) repeat-x;
+  font: 12px;
+  font-family: "Lucida Grande", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: #f0e9e8;
+  text-decoration: none;
+}
+
+#container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+#logo h1 {
+  float: left;
+}
+
+#logo a {
+  width: 248px;
+  height: 21px;
+  text-indent: -9999px;
+  display: block;
+  background: url(/img/logo.png) no-repeat;
+  margin-top: 0px;
+}
+
+header {
+  padding: 15px 0;
+  height: 55px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 20px;
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  margin: 0px 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid #cb9d7e;
+  color: #cb9d7e;
+}
+
+#conteudo {
+  width: 710px;
+  float: left;
+}
+
+aside {
+  width: 350px;
+  float: right;
+}
+
+section#visita {
+  background-color: #3e3431;
+  color: #e7e0df;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+
+
+label {
+  font-size: 1.2em;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+h3 {
+  color: #e7e0df;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+input {
+  height: 30px;
+  width: 100%;
+  background-color: #f0e9e8;
+  border: none;
+  text-align: center;
+  appearance: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input.campo {
+  border: 1px solid #e7e0df;
+}
+
+input.botao {
+  height: 40px;
+  background-color: #e7e0df;
+  padding: 8px;
+  color: #3e3431;
+  margin-top: 5px;
+  border: 1px solid #3e3431;
+}
+
+section#galeria {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #3e3431;
+  height: 320px;
+
+}
+
+section#galeria a {
+  display: block;
+  background: url(/img/fundo-foto.png) no-repeat;
+  float: left;
+  padding: 15px 15px 20px 15px;
+  margin: 10px 0px 0px 20px;
+}
+
+#postagens h3 {
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #3e3431;
+  text-align: left;
+  
+}
+
+
+
+article#video {
+  float: left;
+}
+
+article#mapa {
+  float: right;
+  margin-right: 30px;
+}
+
+article#exposicoes {
+  float: left;
+  margin-left: 20px;
+  
+}
+
+article#historia {
+  display: block;
+  width: 340px;
+  float: right;
+
+}
+
+#postagens li a {
+  text-decoration: none;
+  color: #3e3431;
+
+}
+
+#postagens a {
+  color: #3e3431;
+  
+}
+
+#postagens p {
+  color: #cb9d7e;
+}
+
+
+#exposicoes a:hover {
+  color: #cb9d7e;
+  text-decoration:underline;
+}
+
+
+footer {
+  height: 10px;
+  clear: both;
+  background: url(/img/fundo-rodape.png) no-repeat center top;
+  padding: 30px;
+
+}
+
+p a {
+  text-align: center;
+  background: black;
+}
